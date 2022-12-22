@@ -1,0 +1,39 @@
+html {
+	box-sizing: border-box;
+	--color-main: #570615;
+	--color-second: #d6cdbe;
+}
+
+* {
+	box-sizing: inherit;
+	/*outline: dashed 1px blue;*/
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.recipe_picture img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.recipe_picture {
+	width: 20rem;
+}
+
+.recipe_picture:hover {
+	opacity: 50%;
+}
+
+main {
+	margin: 2rem;
+}
+
+main h2 {
+	font-weight: normal;
+	color: var(--color-main);
+}
