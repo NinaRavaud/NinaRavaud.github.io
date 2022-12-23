@@ -94,3 +94,87 @@ nav a:active {
 	color: white;
 	border-bottom: solid;
 }
+
+.sidenav {
+	display: none;
+}
+
+@media screen and (max-width: 1000px) {
+	nav {
+		display: none;
+	}
+
+	.sidenav {
+		display: block;
+	}
+
+	header {
+		justify-content: space-between;
+		padding: 2rem;
+	}
+
+	/* Burger menu */
+	.sidenav {
+	  height: 100%;
+	  width: 250px;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 100vw;
+	  background-color: var(--color-main);
+	  padding-top: 60px;
+	  transition: left 0.5s ease;
+	}
+
+	/* Sidenav menu links */
+	.sidenav a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color: var(--color-second);
+	  display: block;
+	  transition: 0.3s;
+	}
+
+	.sidenav a:hover {
+	  color: white;
+	}
+
+	.sidenav ul {
+	  list-style-type: none;
+	  padding: 0;
+	  margin: 0;
+	}
+
+	/* Active class */
+	.sidenav.active {
+	  left: calc(100vw - 250px);
+	}
+
+	/* Close btn */
+	.sidenav .close {
+	  position: absolute;
+	  top: 0;
+	  right: 25px;
+	  font-size: 36px;
+	}
+
+	/* Icône burger */
+	.burger-icon span {
+		/*margin-left: auto;*/
+
+		display: block;
+		width: 35px;
+		height: 5px;
+		background-color: gray;
+		margin: 6px 0;
+		border-radius: 4px;
+	}
+}
+
+footer {
+	padding: 1rem;
+	text-align: center;
+	font-weight: bold;
+	background-color: var(--color-second);
+}

@@ -10,6 +10,9 @@
 		<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="main_navigation.css">
 		<link rel="stylesheet" href="secondary_navigation.css">
+
+		<!-- Scripts -->
+		<script src="burger_menu.js" defer></script>
 	</head>
 
 	<!-- Contenu de la page -->
@@ -33,6 +36,26 @@
 					<li><a href="bases.html">Les bases</a></li>
 				</ul>	
 			</nav>
+
+			<div id="nav-burger" class="sidenav">
+			  	<a id="bouton-ferme" href="#" class="close">×</a>
+			  	<ul>
+			    	<li><a href="index.html">Accueil</a></li>
+			    	<li><a href="entrees.html">Entrées</a></li>
+			    	<li><a href="plats.html">Plats</a></li>
+			    	<li><a href="desserts.html">Dessert</a></li>
+			    	<li><a href="boissons.html">Boissons</a></li>
+			    	<li><a href="bases.html">Les bases</a></li>
+			  	</ul>
+			</div>
+
+			<a href="#" id="bouton-ouvert">
+			  	<span class="burger-icon">
+			    	<span class="button-line"></span>
+			    	<span class="button-line"></span>
+			    	<span class="button-line"></span>
+			  	</span>
+			</a>
 		</header>
 
 		<!-- Grille des recettes -->
@@ -45,7 +68,7 @@
 
                 <div class="article-card-content">
                     <h2>
-                        <a href="">
+                        <a href="Salade_lentilles_saumon/salade_lentilles_saumon.html">
                             Salade de lentilles au saumon
                         </a>
                     </h2>
@@ -60,6 +83,12 @@
                 </div>
             </article>
         </div>
+
+        <footer>
+			<p>
+				2023 &copy; Nina Ravaud
+			</p>
+		</footer>
 
 
 	</body>
