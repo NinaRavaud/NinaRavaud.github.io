@@ -15,25 +15,90 @@ body {
 	padding: 0;
 }
 
-.recipe_picture img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 5px;
+.articles-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 2rem;
+
+	background-color: gray;
+	padding: 2rem;
 }
 
-.recipe_picture {
-	width: 20rem;
+.article-card {
+	display: flex;
+	flex-direction: column;
+
+	/* padding: 1.5rem; */
+	border-radius: 10px;
+	background-color: white;
+	/* box-shadow: 5px 5px 5px gray; */
+
+	overflow: hidden;
 }
 
-.recipe_picture:hover {
-	opacity: 50%;
+.article-card img {
+	/* height: 300px;
+	max-width: 100%; */
+	width: 100%;
+	display: block;
 }
 
-main {
-	margin: 2rem;
+.article-card img:focus {
+	/* FIXME: What to put here ? */
+	color: white;
 }
 
-main h2 {
-	font-weight: normal;
-	color: var(--color-main);
+.article-card img:hover {
+	opacity: 80%;
+}
+
+.article-card img:active {
+	/* FIXME: What to put here ? */
+	color: gray;
+}
+
+.article-card-content {
+	padding: 1.5rem;
+}
+
+.article-card-content a {
+	text-decoration: None;
+	font-style: normal;
+	color: black;
+	font-family: 'Lato';
+	font-weight: 700;
+	/* font-size: 1rem; */
+	/* width: 100%;
+	height: auto; */
+	/* box-sizing: border-box; */
+}
+
+.article-card-content a:focus {
+	color: white;
+}
+
+.article-card-content a:hover {
+	color: gray;
+}
+
+.article-card-content a:active {
+	color: gray;
+}
+
+.article-card-content h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.7rem;
+	/* box-sizing: border-box; */
+	/* line-height: 0rem; */
+}
+
+.article-date {
+	margin-top: 0.6rem;
+	font-family: 'Lato', sans-serif;
+}
+
+.article-short {
+	margin-top: 2rem;
+	font-family: 'Lato', sans-serif;
 }
