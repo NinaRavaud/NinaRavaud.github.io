@@ -219,6 +219,7 @@ body {
 
 #light-gif {
 	height: 3.5rem;
+	width: auto;
 	margin: 0;
 	box-shadow: none;
 	border-radius: 0px;
