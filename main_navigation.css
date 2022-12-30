@@ -116,7 +116,7 @@ nav a:active {
 	/* Burger menu */
 	.sidenav {
 	  height: 100%;
-	  width: 250px;
+	  width: 70%;
 	  position: fixed;
 	  z-index: 1;
 	  top: 0;
@@ -130,7 +130,7 @@ nav a:active {
 	.sidenav a {
 	  padding: 8px 8px 8px 32px;
 	  text-decoration: none;
-	  font-size: 25px;
+	  font-size: 2.5rem;
 	  color: var(--color-second);
 	  display: block;
 	  transition: 0.3s;
@@ -148,7 +148,7 @@ nav a:active {
 
 	/* Active class */
 	.sidenav.active {
-	  left: calc(100vw - 250px);
+	  left: calc(100vw - 70%);
 	}
 
 	/* Close btn */
@@ -156,7 +156,7 @@ nav a:active {
 	  position: absolute;
 	  top: 0;
 	  right: 25px;
-	  font-size: 36px;
+	  font-size: 5rem;
 	}
 
 	/* Icône burger */
