@@ -230,6 +230,7 @@ body {
 	padding: 1rem;
 	border-radius: 20px;
 	background-color: #99a877;
+	border: 5px green dashed;
 }
 
 .note h2 {
@@ -246,7 +247,7 @@ body {
 }
 
 .lien {
-	color: blue;
+	color: #d4535f;
 	text-decoration: none;
 }
 
