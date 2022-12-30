@@ -13,6 +13,7 @@ body {
 	font-family: "Lato", sans-serif;
 	margin: 0;
 	padding: 0;
+	background-color: #99a877;
 }
 
 .articles-grid {
@@ -20,7 +21,6 @@ body {
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	gap: 2rem;
 
-	background-color: #99a877;
 	padding: 2rem;
 }
 

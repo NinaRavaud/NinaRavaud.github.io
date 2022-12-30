@@ -177,4 +177,8 @@ footer {
 	text-align: center;
 	font-weight: bold;
 	background-color: var(--color-second);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
