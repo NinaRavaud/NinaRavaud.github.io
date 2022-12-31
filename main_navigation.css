@@ -36,7 +36,8 @@ header {
 	width: 9rem;
 }
 
-header h1 {
+header h1 a {
+	text-decoration: none;
 	font-family: "Kaushan Script", "Lato", sans-serif;
 	font-size: 2.5rem; /* taille police */
 	color: var(--color-main);
